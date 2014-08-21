@@ -3,16 +3,25 @@ class List
 ## Start List Node
   class Node
     attr_accessor :value, :next
+
+    def initialize()
+      @value = nil
+      @next = nil
+    end
   end
 
 ## Then the Basic List
 
   def initialize()
+    # List::Node.value
+    # List::Node.next
   end
 
   # empty?
 
-  # head
+  def head
+    List::Node.value
+  end
 
   # head=
 
